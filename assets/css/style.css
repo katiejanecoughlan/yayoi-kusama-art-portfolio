@@ -58,3 +58,9 @@
   .social-links li a i:hover {
     background: #fae028;
   }
+
+  #footer-details {
+text-align: center;
+padding-top: 15px;
+padding-bottom: 5px;
+}

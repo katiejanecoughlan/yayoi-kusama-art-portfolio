@@ -1,4 +1,3 @@
-
 /* -------Header-------- */
 .name {
     text-align: center;
@@ -9,3 +8,21 @@
 }
 
 /* -----Navbar----- */
+
+
+/* -----Container image------ */
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/YK\ portrait.png") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}

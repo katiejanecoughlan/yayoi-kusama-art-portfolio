@@ -14,9 +14,8 @@
 
 .pumpkin:hover{
     transform:scale(1.2);
+    filter: invert(100%);
 }
-
-/*Pumpkin Swipe Effect */
 
 
 
@@ -136,4 +135,49 @@ This moves headings to left, but disables hover effects
 
 body {
     margin: 0;
+}
+
+/* Scrolling Background */
+.parallax-background {
+    background-image: url('https://hirshhorn.si.edu/wp-content/uploads/2016/12/Eternity2.jpg');
+    min-height: 500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+    z-index: 1;
+    color: #fafafa;
+    font-family: 'Varela', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px #000;
+    text-shadow: 120px 80px 40px 20px #000;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    left: 20px;
+    margin-right: 20px;
+  }
+
+  #quote-text {
+    font-size: 12px;
+  }
+
+  /* Hero Text Media Adjustment */
+
+  @media (max-width:576px) {
+    .hero-text {
+        font-size: 12px;
+    }
+
+    #quote-text {
+        font-size: 10px;
+    }
 }

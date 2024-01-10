@@ -64,3 +64,11 @@ text-align: center;
 padding-top: 15px;
 padding-bottom: 5px;
 }
+
+
+/* ----Nicole----- */
+/*----------------Image*/
+.img-fluid{
+  width: 100%;
+  height: auto;
+}

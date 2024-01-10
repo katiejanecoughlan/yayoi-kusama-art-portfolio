@@ -4,11 +4,38 @@
 #gallery-row-1 {
     background-color: #058DD3;
     color: aliceblue;
-    font-family: 'Varela',Arial, Helvetica, sans-serif;
+    font-family: 'Varela', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    align-self: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+}
+
+.row-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 3px;
+}
+
+/* Opacity Hover Effect */
+
+#gallery-row-1 .polka {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#gallery-row-1:hover .polka {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.polka {
+    background-image: radial-gradient(#fafafa 20%, transparent 20%),
+        radial-gradient(#212121 20%, transparent 20%);
+    background-color: #058dd3;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
 }
 
 /* Sets margin for gallery images 
@@ -16,10 +43,17 @@
     height: 75%;
     width: 75%;
 }
+
+This moves headings to left, but disables hover effects
+.heading-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
 */
 
-#photos img{
-    width:100%; 
+#photos img {
+    width: 100%;
     line-height: 1em;
 }
 
@@ -29,29 +63,46 @@
 
 .img-polka-1 {
     background-image: url('https://www.stirworld.com/images/article_gallery/yayoi-kusama-love-is-calling-2013-courtesy-of-david-zwirner-new-york-ota-fine-arts-tokyo-singapore-shanghai-victoria-miro-london-venice-stirworld-200904033023.jpg'
-    );
+        );
     background-size: cover;
-    height: 500px;
-    width: 200px;
-    width: auto;
+    height: 475px;
+    width: 500px;
 }
 
 .img-polka-2 {
     background-image: url('https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg');
     background-size: cover;
-    max-width: 50%;
-    height: auto;
+    height: 500px;
+    width: 500px;
 }
 
 .img-polka-3 {
     background-image: url('https://img.jakpost.net/c/2018/05/07/2018_05_07_45471_1525692255._large.jpg');
     background-size: cover;
     height: 500px;
-    width: auto;
+    width: 500px;
 }
 
-.img-hover:hover{
+.img-hover:hover {
     color: #058DD3;
+}
+
+@media (max-width:576px) {
+    .img-polka-1 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .img-polka-2 {
+        height: 300px;
+        width: auto;
+    }
+
+    .img-polka-3 {
+        height: 300px;
+    }
+
 }
 
 body {

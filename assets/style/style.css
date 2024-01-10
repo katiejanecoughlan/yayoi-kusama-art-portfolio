@@ -138,7 +138,7 @@ This moves headings to left, but disables hover effects
 /* Infinity Mirror Gallery */
 
 #infinity-images .img-hover:hover {
-    filter: hue-rotate(45deg) contrast(150%);
+    filter: hue-rotate(45deg) saturate(200%);
     transition: 0.3s ease-in-out;
 }
 

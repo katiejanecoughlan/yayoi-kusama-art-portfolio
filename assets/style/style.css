@@ -1,4 +1,24 @@
-/* Gallery Category Heading */
+/* Entry - Styles */
+
+.entry-title {
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+.pumpkin {
+    height: 200px;
+    width: 250px;
+    padding-top: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.pumpkin:hover{
+    transform:scale(1.2);
+}
+
+/*Pumpkin Swipe Effect */
+
+
 
 /* Polka Gallery Styles */
 #gallery-row-1 {

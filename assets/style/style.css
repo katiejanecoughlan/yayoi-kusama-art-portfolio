@@ -1,0 +1,59 @@
+/* Gallery Category Heading */
+
+/* Polka Gallery Styles */
+#gallery-row-1 {
+    background-color: #058DD3;
+    color: aliceblue;
+    font-family: 'Varela',Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    align-self: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Sets margin for gallery images 
+.gallery-image-container {
+    height: 75%;
+    width: 75%;
+}
+*/
+
+#photos img{
+    width:100%; 
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+
+.img-polka-1 {
+    background-image: url('https://www.stirworld.com/images/article_gallery/yayoi-kusama-love-is-calling-2013-courtesy-of-david-zwirner-new-york-ota-fine-arts-tokyo-singapore-shanghai-victoria-miro-london-venice-stirworld-200904033023.jpg'
+    );
+    background-size: cover;
+    height: 500px;
+    width: 200px;
+    width: auto;
+}
+
+.img-polka-2 {
+    background-image: url('https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg');
+    background-size: cover;
+    max-width: 50%;
+    height: auto;
+}
+
+.img-polka-3 {
+    background-image: url('https://img.jakpost.net/c/2018/05/07/2018_05_07_45471_1525692255._large.jpg');
+    background-size: cover;
+    height: 500px;
+    width: auto;
+}
+
+.img-hover:hover{
+    color: #058DD3;
+}
+
+body {
+    margin: 0;
+}

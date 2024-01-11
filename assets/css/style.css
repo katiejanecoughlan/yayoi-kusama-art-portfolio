@@ -50,6 +50,7 @@ img {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 60%;
 
   display: flex;
   align-items: center;

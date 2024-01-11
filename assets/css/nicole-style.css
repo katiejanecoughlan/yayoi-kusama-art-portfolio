@@ -90,6 +90,16 @@ button[type="submit"] {
   margin: 0;
 }
 
+.image-background-about{
+  background-image: url("/assets/images/yayoi\ kusama.jpg");
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*----------------Carousel*/
 .img.d-block.w-100 {
   max-height: 50%;

@@ -8,13 +8,18 @@
     text-align: center;
 }
 
+picture.logo {
+  max-width: 20%;
+  height: auto;
+}
+
 /* -----Navbar----- */
 .navbar {
     text-align: center;
 }
 
 /* -----Container image------ */
-.callout-container {
+.callout-container-main {
     height: 100vh;
 
     background: url("../images/YK\ portrait.png") no-repeat bottom right fixed;

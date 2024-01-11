@@ -1,3 +1,16 @@
+/* ----Announcement----- */
+.alert {
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 5px 5px;
+  background-color: #fae028;
+  border-color: #fae028;
+}
+
+.announcement {
+  text-align: center;
+}
+
 /* -------Header-------- */
 .name {
   text-align: center;
@@ -10,10 +23,6 @@ img {
   width: auto;
 }
 
-.announcement {
-  text-align: center;
-}
-
 /* -----Navbar----- */
 .navbar {
     font-size: 20px;
@@ -21,8 +30,8 @@ img {
   }
 
   .nav-item {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
 
   }
 

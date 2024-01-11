@@ -31,15 +31,15 @@ img {
 
 /* -----Navbar----- */
 .navbar {
-    font-size: 20px;
-    font-weight: 500;
-  }
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+}
 
-  .nav-item {
-    padding-left: 15px;
-    padding-right: 15px;
-
-  }
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* -----Container image------ */
 .callout-container-main {
@@ -124,9 +124,13 @@ p.learn-more:hover {
     padding: 10px;
     font-size: 50px;
   }
-  
+
   img {
     height: 40px;
     width: auto;
+  }
+
+  .navbar {
+    justify-content: center;
   }
 }

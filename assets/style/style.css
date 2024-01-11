@@ -1,0 +1,280 @@
+/* Entry - Styles */
+
+.entry-title {
+    font-weight: 300;
+    letter-spacing: 6px;
+}
+
+.pumpkin {
+    height: 200px;
+    width: 250px;
+    padding-top: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.pumpkin:hover{
+    transform:scale(1.2);
+    filter: invert(100%);
+}
+
+
+
+/* Polka Gallery Styles */
+#gallery-row-1 {
+    background-color: #058DD3;
+    color: aliceblue;
+    font-family: 'Varela', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.row-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 6px;
+}
+
+/* Opacity Hover Effect */
+
+#gallery-row-1 .polka {
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+#gallery-row-1:hover .polka {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+
+}
+
+/* Text Size Hover Effect */
+
+#gallery-row-1 .row-title:hover {
+    transform: scale(1.2);
+    filter: invert(100%);
+    transition: 0.3s ease-in-out;
+    
+
+}
+
+.polka {
+    background-image: radial-gradient(#fafafa 20%, transparent 20%),
+        radial-gradient(#212121 20%, transparent 20%);
+    background-color: #058dd3;
+    background-position: 0 0, 50px 50px;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Sets margin for gallery images 
+.gallery-image-container {
+    height: 75%;
+    width: 75%;
+}
+
+This moves headings to left, but disables hover effects
+.heading-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+*/
+
+/* Polka Gallery Styles */
+
+#polka-images .img-hover:hover {
+    filter: invert(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.img-polka-1 {
+    background-image: url('https://www.stirworld.com/images/article_gallery/yayoi-kusama-love-is-calling-2013-courtesy-of-david-zwirner-new-york-ota-fine-arts-tokyo-singapore-shanghai-victoria-miro-london-venice-stirworld-200904033023.jpg'
+        );
+    background-size: cover;
+    height: 475px;
+    width: 500px;
+}
+
+.img-polka-2 {
+    background-image: url('https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.img-polka-3 {
+    background-image: url('https://img.jakpost.net/c/2018/05/07/2018_05_07_45471_1525692255._large.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.img-hover:hover {
+    color: #058DD3;
+}
+
+@media (max-width:576px) {
+    .img-polka-1 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .img-polka-2 {
+        height: 300px;
+        width: auto;
+    }
+
+    .img-polka-3 {
+        height: 300px;
+    }
+
+}
+
+/* Infinity Mirror Gallery */
+
+#infinity-images .img-hover:hover {
+    filter: hue-rotate(45deg) saturate(200%);
+    transition: 0.3s ease-in-out;
+}
+
+.img-infinity-1 {
+    background-image: url('https://ago.ca/sites/default/files/styles/image_large/public/2017-10/E-08897.jpg?h=0b7a0c0c&itok=Au6QQjOu'
+        );
+    background-size: cover;
+    height: 475px;
+    width: 500px;
+}
+
+.img-infinity-2 {
+    background-image: url('https://i.guim.co.uk/img/media/d06d73410bf1b97e28ea54159aa48b4b06d05635/1180_956_4753_2851/master/4753.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f7bebc92fe3e74ca191e3f0fc1479283');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.img-infinity-3 {
+    background-image: url('https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/otafinearts/images/view/2e00bbed700ef9798b9cbfcb75f053abj/otafinearts-yayoi-kusama-infinity-mirrored-room-the-eternally-infinite-light-of-the-universe-illuminating-the-quest-for-truth-2020.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+
+
+@media (max-width:576px) {
+    .img-infinity-1 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .img-infinity-2 {
+        height: 300px;
+        width: auto;
+    }
+
+    .img-infinity-3 {
+        height: 300px;
+    }
+
+}
+
+body {
+    margin: 0;
+}
+
+/* Scrolling Background */
+.parallax-background {
+    background-image: url('https://hirshhorn.si.edu/wp-content/uploads/2016/12/Eternity2.jpg');
+    min-height: 500px;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .hero-text {
+    position: absolute;
+    top: 10rem;
+    left: 6rem;
+    z-index: 1;
+    color: #fafafa;
+    font-family: 'Varela', Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0px 2px #000;
+    text-shadow: 120px 80px 40px 20px #000;
+    font-style: italic;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    left: 20px;
+    margin-right: 20px;
+  }
+
+  #quote-text {
+    font-size: 12px;
+  }
+
+  /* Hero Text Media Adjustment */
+
+  @media (max-width:576px) {
+    .hero-text {
+        font-size: 12px;
+    }
+
+    #quote-text {
+        font-size: 10px;
+    }
+}
+
+/* CSS Colour Palette Code from COOLORS */
+/* CSS HEX */
+--veronica: #b418c9ff;
+--robin-egg-blue: #03d1d0ff;
+--blue-ncs: #058dd3ff;
+--violet-jtc: #512147ff;
+--british-racing-green: #04442aff;
+
+/* CSS HSL */
+--veronica: hsla(293, 79%, 44%, 1);
+--robin-egg-blue: hsla(180, 97%, 42%, 1);
+--blue-ncs: hsla(200, 95%, 42%, 1);
+--violet-jtc: hsla(312, 42%, 22%, 1);
+--british-racing-green: hsla(156, 89%, 14%, 1);
+
+/* SCSS HEX */
+$veronica: #b418c9ff;
+$robin-egg-blue: #03d1d0ff;
+$blue-ncs: #058dd3ff;
+$violet-jtc: #512147ff;
+$british-racing-green: #04442aff;
+
+/* SCSS HSL */
+$veronica: hsla(293, 79%, 44%, 1);
+$robin-egg-blue: hsla(180, 97%, 42%, 1);
+$blue-ncs: hsla(200, 95%, 42%, 1);
+$violet-jtc: hsla(312, 42%, 22%, 1);
+$british-racing-green: hsla(156, 89%, 14%, 1);
+
+/* SCSS RGB */
+$veronica: rgba(180, 24, 201, 1);
+$robin-egg-blue: rgba(3, 209, 208, 1);
+$blue-ncs: rgba(5, 141, 211, 1);
+$violet-jtc: rgba(81, 33, 71, 1);
+$british-racing-green: rgba(4, 68, 42, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(0deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-right: linear-gradient(90deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-bottom: linear-gradient(180deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-left: linear-gradient(270deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-top-right: linear-gradient(45deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-bottom-right: linear-gradient(135deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-top-left: linear-gradient(225deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-bottom-left: linear-gradient(315deg, #b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);
+$gradient-radial: radial-gradient(#b418c9ff, #03d1d0ff, #058dd3ff, #512147ff, #04442aff);

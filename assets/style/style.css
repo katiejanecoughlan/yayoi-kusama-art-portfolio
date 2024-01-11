@@ -1,5 +1,11 @@
 /* Entry - Styles */
 
+#welcomeBackground {
+    height: 100px;
+    width: 100%;
+    background-color: #fafafa;
+}
+
 .entry-title {
     font-weight: 300;
     letter-spacing: 6px;
@@ -16,8 +22,6 @@
     transform:scale(1.2);
     filter: invert(100%);
 }
-
-
 
 /* Polka Gallery Styles */
 #gallery-row-1 {
@@ -226,7 +230,19 @@ body {
     font-size: 14px;
     left: 20px;
     margin-right: 20px;
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+
+  @keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
 
   #quote-text {
     font-size: 12px;
@@ -243,6 +259,8 @@ body {
         font-size: 10px;
     }
 }
+
+
 
 /* CSS Colour Palette Code from COOLORS */
 /* CSS HEX */

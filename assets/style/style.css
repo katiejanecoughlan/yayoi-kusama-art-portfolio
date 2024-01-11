@@ -113,10 +113,6 @@ This moves headings to left, but disables hover effects
     width: 500px;
 }
 
-.img-hover:hover {
-    color: #058DD3;
-}
-
 @media (max-width:576px) {
     .img-polka-1 {
         height: 300px;
@@ -137,9 +133,18 @@ This moves headings to left, but disables hover effects
 
 /* Infinity Mirror Gallery */
 
-#infinity-images .img-hover:hover {
-    filter: hue-rotate(45deg) saturate(200%);
+.infinity-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 6px;
     transition: 0.3s ease-in-out;
+    text-shadow: 120px 80px 40px 20px #000;
+}
+
+.infinity-title:hover {
+    transform: scale(1.2);
+    filter: invert(100%);
 }
 
 .img-infinity-1 {
@@ -148,6 +153,7 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 475px;
     width: 500px;
+    filter: grayscale(90%);
 }
 
 .img-infinity-2 {
@@ -155,6 +161,7 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 500px;
     width: 500px;
+    filter: grayscale(90%);
 }
 
 .img-infinity-3 {
@@ -162,6 +169,12 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 500px;
     width: 500px;
+    filter: grayscale(80%);
+}
+
+#infinity-images .img-hover:hover {
+    filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -207,7 +220,6 @@ body {
     color: #fafafa;
     font-family: 'Varela', Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
-    text-shadow: 0px 2px #000;
     text-shadow: 120px 80px 40px 20px #000;
     font-style: italic;
     background: rgba(0, 0, 0, 0.75);

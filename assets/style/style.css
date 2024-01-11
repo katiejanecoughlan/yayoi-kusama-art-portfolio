@@ -235,7 +235,24 @@
         height: 300px;
     }
 
+    .infinity-title {
+        font-size:30px;
+    }
+
 }
+
+@media (max-width:483px) {
+    .infinity-title {
+        font-size:24px;
+    }
+}
+
+@media (max-width:383px) {
+    .infinity-title {
+        font-size:18px;
+    }
+}
+
 
 /* Public Exhibitions Gallery */
 
@@ -315,7 +332,24 @@
         object-fit: cover;
     }
 
+    .public-title {
+        font-size:30px;
+    }
+
 }
+
+@media (max-width:483px) {
+    .public-title {
+        font-size:24px;
+    }
+}
+
+@media (max-width:383px) {
+    .public-title {
+        font-size:18px;
+    }
+}
+
 
 body {
     margin: 0;

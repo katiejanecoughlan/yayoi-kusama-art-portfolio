@@ -82,14 +82,26 @@
 
 /* Text Size Hover Effect */
 
+#gallery-row-1 .row-title {
+    
+}
+
 #gallery-row-1 .row-title:hover {
     transform: scale(1.2);
     filter: invert(100%);
     transition: 0.3s ease-in-out;
-
-
+    background-image: radial-gradient(#fafafa 20%, transparent 20%),
+    radial-gradient(#212121 20%, transparent 20%);
+    background-color: #058dd3;
+    background-position: 0 0, 35px 50px;
+    background-size: 100px 100px;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    background-repeat: repeat;
 }
 
+/*
 .polka {
     background-image: radial-gradient(#fafafa 20%, transparent 20%),
         radial-gradient(#212121 20%, transparent 20%);
@@ -101,6 +113,8 @@
     z-index: -1;
     background-repeat: repeat;
 }
+
+*/
 
 /* Sets margin for gallery images 
 .gallery-image-container {
@@ -334,7 +348,7 @@ body {
     letter-spacing: 2px;
     text-shadow: 120px 80px 40px 20px #000;
     font-style: italic;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     left: 20px;
     margin-right: 20px;

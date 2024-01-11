@@ -1,22 +1,21 @@
-
 /*---------------Colors*/
-.bg-color-contact{
-    background-color: #fff;
-  }
-  
-  /*---------------Contact Page*/
-  /*----------------Image*/
-  
-  .img-contact{
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin:0;
-  }
-  
- /*----------------contact details*/
- .image-background {
-  background-image: url('/assets/images/Obilteration-Room.jpg');
+.bg-color-contact {
+  background-color: #fff;
+}
+
+/*---------------Contact Page*/
+/*----------------Image*/
+
+.img-contact {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/*----------------contact details*/
+.image-background {
+  background-image: url("/assets/images/Obilteration-Room.jpg");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
@@ -32,7 +31,7 @@
   left: 6rem;
   z-index: 1;
   color: #fafafa;
-  font-family: 'Varela', Arial, Helvetica, sans-serif;
+  font-family: "Varela", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   text-shadow: 120px 80px 40px 20px #000;
   font-style: italic;
@@ -42,64 +41,63 @@
   margin-right: 2px;
 }
 
-  hr{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 2px;
-    background-color: black;
-    opacity: 50;
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: black;
+  opacity: 50;
 }
 
-  /*----------------Text Box*/
-  .text-box{
+/*----------------Text Box*/
+.text-box {
   width: auto;
-  align-items: center; 
+  align-items: center;
   margin: auto;
   border: 2px solid black;
   padding: 10px;
-  }
-  
-  /*----------------Form*/
-  .contact-heading{
-    margin-top: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .text-center{
-  text-align: center;
-  }
-  
-  .center-form{
- width: auto;
-  }
-  
-  button[type="submit"] {
-  color: #fafafa;
-  background-color: #e84610;
-  }
-  
-  .inline-block{
-  display: inline-block
-  }
-  
-  /*---------------About Page*/
-    /*----------------Top Image*/
-    .img-fluid.img-about {
-      width: 100%;
-      height: auto;
-      padding-left: 0;
-      margin:0;
 }
 
-  
+/*----------------Form*/
+.contact-heading {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center-form {
+  width: auto;
+}
+
+button[type="submit"] {
+  color: #fafafa;
+  background-color: #e84610;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/*---------------About Page*/
+/*----------------Top Image*/
+.img-fluid.img-about {
+  width: 100%;
+  height: auto;
+  padding-left: 0;
+  margin: 0;
+}
+
 /*----------------Carousel*/
-/* .img.d-block.w-100 {
+.img.d-block.w-100 {
   max-height: 50%;
   max-width: 50%;
   height: 60%;
   width: 60%;
   margin: 20px auto;
-} */
+}
 
 /* #carousel-div {
 } */
@@ -109,13 +107,14 @@
   overflow: hidden;
 }
 
-/* .img.d-block.w-100 {
+.img.d-block.w-100 {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 500px;
-} */
+}
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
   background-size: 100% 100%;
   height: 50px;
   width: 50px;
@@ -123,9 +122,8 @@
   filter: invert(50%);
 }
 
-
-  /*----------------Biography*/
-.bio{
+/*----------------Biography*/
+.bio {
   width: 100%;
 }
 
@@ -160,9 +158,7 @@
 }
 
 #footer-details {
-text-align: center;
-padding-top: 15px;
-padding-bottom: 5px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
 }
-
-

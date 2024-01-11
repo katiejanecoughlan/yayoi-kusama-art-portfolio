@@ -29,6 +29,26 @@
     position: relative;
 }
 
+p.learn-more {
+  font-weight: 600;
+}
+
+p.learn-more:hover {
+  width: 150px;
+  height: 150px;
+  padding-top: 40%;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #fafafa;
+  background: #fae028;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
 /* ----Footer----- */
 
 .footer {

@@ -1,23 +1,34 @@
 
-
 /*---------------Colors*/
 .bg-color-contact{
     background-color: #fff;
   }
   
+  /*---------------Contact Page*/
   /*----------------Image*/
   
-  .img-fluid{
+  .img-contact{
     width: 100%;
     height: auto;
     padding: 0;
+    margin:0;
   }
   
+  hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2px;
+    background-color: black;
+    opacity: 50;
+}
+
   /*----------------Text Box*/
   .text-box{
-    width: 300px;
+  width: auto;
   align-items: center; 
   margin: auto;
+  border: 2px solid black;
+  padding: 10px;
   }
   
   /*----------------Form*/
@@ -31,7 +42,7 @@
   }
   
   .center-form{
-  margin: 0 auto; 
+ width: auto;
   }
   
   button[type="submit"] {
@@ -43,5 +54,28 @@
   display: inline-block
   }
   
-  
-  
+  /*---------------About Page*/
+    /*----------------Top Image*/
+  .img-about{
+    width: 100%;
+    height: auto;
+    margin:0;
+    padding:0;
+}
+    /*----------------Margin for Top Image*/
+    .margin-top{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
+
+
+/*----------------Carousel*/
+
+
+  /*----------------Biography*/
+.bio{
+  width: 100%;
+}
+
+
+

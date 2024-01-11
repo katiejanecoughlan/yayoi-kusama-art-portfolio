@@ -1,14 +1,26 @@
 /* Entry - Styles */
 
+/*
 #welcomeBackground {
-    height: 100px;
+    position:fixed;
+    top: 50px;
+    background: #fafafa;
+    border: 2px solid red;
+    height: 50%;
     width: 100%;
-    background-color: #fafafa;
 }
+
+#welcomeBackground:hover {
+
+    width: 100%;
+    background-color: #000;
+}
+*/
 
 .entry-title {
     font-weight: 300;
     letter-spacing: 6px;
+    color: #000;
 }
 
 .pumpkin {
@@ -18,9 +30,19 @@
     transition: 0.3s ease-in-out;
 }
 
-.pumpkin:hover{
-    transform:scale(1.2);
+.pumpkin:hover {
+    transform: scale(1.2);
     filter: invert(100%);
+}
+
+.welcomeCopyright {
+    position: fixed;
+    bottom: 0;
+    left: 135px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    color: #000;
 }
 
 /* Polka Gallery Styles */
@@ -29,7 +51,7 @@
     color: aliceblue;
     font-family: 'Varela', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    
+
 }
 
 .row-title {
@@ -59,7 +81,7 @@
     transform: scale(1.2);
     filter: invert(100%);
     transition: 0.3s ease-in-out;
-    
+
 
 }
 
@@ -200,6 +222,85 @@ This moves headings to left, but disables hover effects
 
 }
 
+/* Public Exhibitions Gallery */
+
+.public-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 6px;
+    transition: 0.3s ease-in-out;
+    text-shadow: 120px 80px 40px 20px #000;
+}
+
+.public-title:hover {
+    transform: scale(1.2);
+    filter: invert(100%);
+}
+
+.img-public-1 {
+    background-image: url('https://media.timeout.com/images/105860575/750/562/image.webp'
+        );
+    background-size: cover;
+    height: 475px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-2 {
+    background-image: url('https://media.timeout.com/images/105860572/750/562/image.webp');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-3 {
+    background-image: url('https://media.timeout.com/images/105847034/750/562/image.webp');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-4 {
+    background-image: url('https://p.potaufeu.asahi.com/02df-p/picture/27127618/67a56ee91448717e905788177b870377.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+#public-images .img-hover:hover {
+    filter: sepia(0%) contrast(100%) brightness(100%);
+    transition: 0.3s ease-in-out;
+}
+
+
+@media (max-width:576px) {
+    .img-public-1 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .img-public-2 {
+        height: 300px;
+        width: auto;
+    }
+
+    .img-public-3 {
+        height: 300px;
+    }
+
+    .img-public-4 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+}
+
 body {
     margin: 0;
 }
@@ -214,9 +315,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-  }
+}
 
-  .hero-text {
+.hero-text {
     position: absolute;
     top: 10rem;
     left: 6rem;
@@ -233,24 +334,25 @@ body {
     animation: fadeInAnimation ease 1.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-  }
+}
 
-  @keyframes fadeInAnimation {
+@keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
-     }
+    }
 }
 
-  #quote-text {
+#quote-text {
     font-size: 12px;
-  }
+}
 
-  /* Hero Text Media Adjustment */
+/* Hero Text Media Adjustment */
 
-  @media (max-width:576px) {
+@media (max-width:576px) {
     .hero-text {
         font-size: 12px;
     }

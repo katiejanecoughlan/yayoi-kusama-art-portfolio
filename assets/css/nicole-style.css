@@ -132,9 +132,32 @@ button[type="submit"] {
   filter: invert(50%);
 }
 
-/*----------------Biography*/
+
 .bio {
   width: 100%;
+
+}
+
+/*----------------Biography*/
+.exhibitions{
+  font-weight: 700;
+}
+
+.text-exhibitions{
+font-size: 13px;
+line-height: 15px;
+margin: 1px;
+padding: 3px;
+}
+
+.text-awards{
+  font-size: 13px;
+  line-height: 15px;
+  margin: 1px;
+  padding: 3px;
+}
+.awards{
+font-weight: 700;
 }
 
 /* ----Footer----- */

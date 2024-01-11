@@ -99,6 +99,7 @@
     height: 100px;
     width: 100%;
     z-index: -1;
+    background-repeat: repeat;
 }
 
 /* Sets margin for gallery images 
@@ -134,7 +135,7 @@ This moves headings to left, but disables hover effects
     background-image: url('https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg');
     background-size: cover;
     height: 500px;
-    width: 500px;
+    width: 250px;
 }
 
 .img-polka-3 {
@@ -170,12 +171,12 @@ This moves headings to left, but disables hover effects
     padding: 5px 5px 5px 5px;
     letter-spacing: 6px;
     transition: 0.3s ease-in-out;
-    text-shadow: 120px 80px 40px 20px #000;
 }
 
 .infinity-title:hover {
     transform: scale(1.2);
-    filter: invert(100%);
+/*    filter: invert(100%);*/
+    text-shadow: 0px 3px 0px rgba(180, 24, 201, 0.6), 0px 6px 0px rgba(5, 141, 211, 0.4), 0px 9px 0px rgba(3, 209, 208, 0.2);
 }
 
 .img-infinity-1 {
@@ -241,13 +242,14 @@ This moves headings to left, but disables hover effects
 .public-title:hover {
     transform: scale(1.2);
     filter: invert(100%);
+
 }
 
 .img-public-1 {
     background-image: url('https://media.timeout.com/images/105860575/750/562/image.webp'
         );
     background-size: cover;
-    height: 475px;
+    height: 665px;
     width: 500px;
     filter: sepia(100%) contrast(150%) brightness(120%);
 }

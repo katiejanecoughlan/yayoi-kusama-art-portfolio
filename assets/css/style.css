@@ -1,37 +1,43 @@
 /* -------Header-------- */
 .name {
     text-align: center;
-    font-family: 'Varela', Arial, Helvetica, sans-serif;
 }
 
 .announcement {
-    text-align: center;
+  text-align: center;
+}
+
+picture.logo {
+  max-width: 20%;
+  height: auto;
 }
 
 /* -----Navbar----- */
 .navbar {
-    text-align: center;
+  text-align: center;
 }
 
 /* -----Container image------ */
-.callout-container {
-    height: 100vh;
+.callout-container-main {
+  height: 100vh;
 
-    background: url("../images/YK\ portrait.png") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("../images/YK\ portrait.png") no-repeat bottom right fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    position: relative;
+  position: relative;
 }
 
 p.learn-more {
   font-weight: 600;
+  font-family: 'Bungee', sans-serif;
+  background-color: #ff0015;
 }
 
 p.learn-more:hover {
@@ -53,35 +59,37 @@ p.learn-more:hover {
 /* ----Footer----- */
 
 .footer {
-    text-align: center;
+  text-align: center;
 }
 
 .social-links {
-    padding-bottom: 15px;
-  }
-  
-  .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-  }
-  
-  .social-links li a i:hover {
-    background: #fae028;
-  }
-
-  #footer-details {
-text-align: center;
-padding-top: 15px;
-padding-bottom: 5px;
+  padding-bottom: 15px;
 }
+
+.social-links li a i {
+  width: 32px;
+  height: 32px;
+  padding: 12px 0;
+  border-radius: 50%;
+  font-size: 13px;
+  line-height: 7px;
+  text-align: center;
+  color: #fafafa;
+  background: #8f8f8f;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+  background: #fae028;
+}
+
+#footer-details {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+/* ----About section ----- */

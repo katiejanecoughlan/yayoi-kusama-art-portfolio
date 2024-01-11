@@ -65,24 +65,27 @@
 
   
 /*----------------Carousel*/
-#myImageCarousel {
+/* .img.d-block.w-100 {
   max-height: 50%;
   max-width: 50%;
   height: 60%;
   width: 60%;
   margin: 20px auto;
-}
+} */
+
+/* #carousel-div {
+} */
 
 .carousel-inner {
   border-radius: 10px;
   overflow: hidden;
 }
 
-#myImageCarousel {
+/* .img.d-block.w-100 {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 500px;
-}
+} */
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
   background-size: 100% 100%;

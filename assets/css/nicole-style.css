@@ -55,19 +55,27 @@
   }
   
   /*---------------About Page*/
+    /*----------------Top Image*/
   .img-about{
     width: 100%;
     height: auto;
     margin:0;
     padding:0;
 }
+    /*----------------Margin for Top Image*/
+    .margin-top{
+      margin-top: 50px;
+      margin-bottom: 50px;
+  }
 
-.margin-top{
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
 
+/*----------------Carousel*/
+
+
+  /*----------------Biography*/
 .bio{
   width: 100%;
 }
+
+
 

@@ -14,6 +14,34 @@
     margin:0;
   }
   
+ /*----------------contact details*/
+ .image-background {
+  background-image: url('/assets/images/Obilteration-Room.jpg');
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.image-text {
+  position: absolute;
+  top: 26rem;
+  left: 6rem;
+  z-index: 1;
+  color: #fafafa;
+  font-family: 'Varela', Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 120px 80px 40px 20px #000;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  right: 20px;
+  margin-right: 2px;
+}
+
   hr{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -133,6 +161,5 @@ text-align: center;
 padding-top: 15px;
 padding-bottom: 5px;
 }
-
 
 

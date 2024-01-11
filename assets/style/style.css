@@ -45,6 +45,11 @@
     color: #000;
 }
 
+/* -----Navbar----- */
+.navbar {
+    text-align: center;
+}
+
 /* Polka Gallery Styles */
 #gallery-row-1 {
     background-color: #058DD3;

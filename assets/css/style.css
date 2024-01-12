@@ -172,7 +172,7 @@ hr {
 
 /*----------------contact details*/
 .image-background-contact {
-  background-image: url("/assets/images/Obilteration-Room.jpg");
+  background-image: url("/assets/images/yayoi\ kusama.jpg#");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
@@ -203,7 +203,7 @@ hr {
   height: 70vh;
   width: 1500px;
  background: url("../images/Untitled\ design\ \(5\).png") no-repeat bottom right fixed;
-} */
+} 
 
 
 /* -------ABOUT PAGE -------- */
@@ -216,7 +216,7 @@ hr {
 }
 
 .image-background-about{
-  background-image: url("/assets/images/yayoi\ kusama.jpg");
+  background-image: url("/assets/images/YK\ Octo.jpg");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
@@ -308,7 +308,13 @@ font-weight: 700;
   .hidden-xs{
     display: none;
   }
-}
+
+  img {
+    width: fit-content;
+    height: fit-content;
+  }
+
+  }
 
 /* @media screen and (min-width: 476px) {
   .name {

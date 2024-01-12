@@ -298,22 +298,14 @@ font-weight: 700;
     padding: 10px;
     font-size: 50px;
   }
-  img {
-    height: 40px;
-    width: auto;
-  }
+ 
   .logo1{
     display: none;
   }
   .hidden-xs{
     display: none;
   }
-
-  img {
-    width: fit-content;
-    height: fit-content;
-  }
-
+  
   }
 
 /* @media screen and (min-width: 476px) {

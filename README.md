@@ -1,5 +1,3 @@
-Certainly! Here's the provided information formatted as a Markdown script:
-
 ```markdown
 # Artist Portfolio
 

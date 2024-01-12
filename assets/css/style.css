@@ -292,16 +292,38 @@ font-weight: 700;
 
 /* ----Media query: small phones and up----- */
 
-@media screen and (min-width: 320px and up) {
+@media screen and (max-width: 475px) {
   .name {
     text-align: center;
     padding: 10px;
     font-size: 50px;
   }
-
   img {
     height: 40px;
     width: auto;
   }
-
+  .logo1{
+    display: none;
+  }
+  .hidden-xs{
+    display: none;
+  }
 }
+
+/* @media screen and (min-width: 476px) {
+  .name {
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+  }
+  img {
+    height: 40px;
+    width: auto;
+  }
+} */
+
+
+
+
+
+

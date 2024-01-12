@@ -1,18 +1,3 @@
-/* ----Announcement----- */
-.alert {
-  border-radius: 0;
-  margin-bottom: 0;
-  padding: 5px 5px;
-  background-color: #ff0015;
-  border-color: #ff0015;
-  color: #fafafa
-}
-
-.alert-link {
-  color: #fafafa;
-  text-decoration: none;
-}
-
 .announcement {
   text-align: center;
 }

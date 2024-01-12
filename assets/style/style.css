@@ -1,8 +1,34 @@
+/*Nav Styles */
+.nav {
+    background-image:url('assets/images/menu-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* Entry - Styles */
+
+/*
+#welcomeBackground {
+    position:fixed;
+    top: 50px;
+    background: #fafafa;
+    border: 2px solid red;
+    height: 50%;
+    width: 100%;
+}
+
+#welcomeBackground:hover {
+
+    width: 100%;
+    background-color: #000;
+}
+*/
 
 .entry-title {
     font-weight: 300;
     letter-spacing: 6px;
+    color: #000;
 }
 
 .pumpkin {
@@ -12,12 +38,39 @@
     transition: 0.3s ease-in-out;
 }
 
-.pumpkin:hover{
-    transform:scale(1.2);
+.pumpkin:hover {
+    transform: scale(1.2);
     filter: invert(100%);
 }
 
+.welcomeCopyright {
+    position: fixed;
+    bottom: 0;
+    left: 135px;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    color: #000;
+}
 
+/* Exit Styling */
+.exit-pumpkin {
+    height: 200px;
+    width: 250px;
+    padding-top: 50px;
+    filter: invert(100%);
+    transition: 0.3s ease-in-out;
+}
+
+.exit-pumpkin:hover {
+    transform: scale(1.2);
+    filter: invert(0%);
+}
+
+/* -----Navbar----- */
+.navbar {
+    text-align: center;
+}
 
 /* Polka Gallery Styles */
 #gallery-row-1 {
@@ -25,7 +78,7 @@
     color: aliceblue;
     font-family: 'Varela', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    
+
 }
 
 .row-title {
@@ -51,38 +104,25 @@
 
 /* Text Size Hover Effect */
 
+#gallery-row-1 .row-title {
+    
+}
+
 #gallery-row-1 .row-title:hover {
     transform: scale(1.2);
     filter: invert(100%);
     transition: 0.3s ease-in-out;
-    
-
-}
-
-.polka {
     background-image: radial-gradient(#fafafa 20%, transparent 20%),
-        radial-gradient(#212121 20%, transparent 20%);
+    radial-gradient(#212121 20%, transparent 20%);
     background-color: #058dd3;
-    background-position: 0 0, 50px 50px;
+    background-position: 0 0, 35px 50px;
     background-size: 100px 100px;
-    height: 100px;
+    height: auto;
     width: 100%;
     z-index: -1;
+    background-repeat: repeat;
 }
 
-/* Sets margin for gallery images 
-.gallery-image-container {
-    height: 75%;
-    width: 75%;
-}
-
-This moves headings to left, but disables hover effects
-.heading-text {
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-*/
 
 /* Polka Gallery Styles */
 
@@ -103,7 +143,7 @@ This moves headings to left, but disables hover effects
     background-image: url('https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg');
     background-size: cover;
     height: 500px;
-    width: 500px;
+    width: 250px;
 }
 
 .img-polka-3 {
@@ -111,10 +151,6 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 500px;
     width: 500px;
-}
-
-.img-hover:hover {
-    color: #058DD3;
 }
 
 @media (max-width:576px) {
@@ -137,9 +173,19 @@ This moves headings to left, but disables hover effects
 
 /* Infinity Mirror Gallery */
 
-#infinity-images .img-hover:hover {
-    filter: hue-rotate(45deg) saturate(200%);
+.infinity-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 6px;
     transition: 0.3s ease-in-out;
+}
+
+.infinity-title:hover {
+    transform: scale(1.2);
+/*    filter: invert(100%);*/
+    background-color: #2a2a2a;
+    text-shadow: 0px 3px 0px rgba(180, 24, 201, 0.6), 0px 6px 0px rgba(5, 141, 211, 0.4), 0px 9px 0px rgba(3, 209, 208, 0.2);
 }
 
 .img-infinity-1 {
@@ -148,6 +194,7 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 475px;
     width: 500px;
+    filter: grayscale(90%);
 }
 
 .img-infinity-2 {
@@ -155,6 +202,7 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 500px;
     width: 500px;
+    filter: grayscale(90%);
 }
 
 .img-infinity-3 {
@@ -162,6 +210,12 @@ This moves headings to left, but disables hover effects
     background-size: cover;
     height: 500px;
     width: 500px;
+    filter: grayscale(80%);
+}
+
+#infinity-images .img-hover:hover {
+    filter: grayscale(0%);
+    transition: 0.3s ease-in-out;
 }
 
 
@@ -181,7 +235,121 @@ This moves headings to left, but disables hover effects
         height: 300px;
     }
 
+    .infinity-title {
+        font-size:30px;
+    }
+
 }
+
+@media (max-width:483px) {
+    .infinity-title {
+        font-size:24px;
+    }
+}
+
+@media (max-width:383px) {
+    .infinity-title {
+        font-size:18px;
+    }
+}
+
+
+/* Public Exhibitions Gallery */
+
+.public-title {
+    background-color: #212121;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+    letter-spacing: 6px;
+    transition: 0.3s ease-in-out;
+    text-shadow: 120px 80px 40px 20px #000;
+}
+
+.public-title:hover {
+    transform: scale(1.2);
+    filter: invert(100%);
+
+}
+
+.img-public-1 {
+    background-image: url('https://media.timeout.com/images/105860575/750/562/image.webp'
+        );
+    background-size: cover;
+    height: 665px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-2 {
+    background-image: url('https://media.timeout.com/images/105860572/750/562/image.webp');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-3 {
+    background-image: url('https://media.timeout.com/images/105847034/750/562/image.webp');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+.img-public-4 {
+    background-image: url('https://p.potaufeu.asahi.com/02df-p/picture/27127618/67a56ee91448717e905788177b870377.jpg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    filter: sepia(100%) contrast(150%) brightness(120%);
+}
+
+#public-images .img-hover:hover {
+    filter: sepia(0%) contrast(100%) brightness(100%);
+    transition: 0.3s ease-in-out;
+}
+
+
+@media (max-width:576px) {
+    .img-public-1 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .img-public-2 {
+        height: 300px;
+        width: auto;
+    }
+
+    .img-public-3 {
+        height: 300px;
+    }
+
+    .img-public-4 {
+        height: 300px;
+        width: auto;
+        object-fit: cover;
+    }
+
+    .public-title {
+        font-size:30px;
+    }
+
+}
+
+@media (max-width:483px) {
+    .public-title {
+        font-size:24px;
+    }
+}
+
+@media (max-width:383px) {
+    .public-title {
+        font-size:18px;
+    }
+}
+
 
 body {
     margin: 0;
@@ -197,9 +365,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
-  }
+}
 
-  .hero-text {
+.hero-text {
     position: absolute;
     top: 10rem;
     left: 6rem;
@@ -207,22 +375,34 @@ body {
     color: #fafafa;
     font-family: 'Varela', Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
-    text-shadow: 0px 2px #000;
     text-shadow: 120px 80px 40px 20px #000;
     font-style: italic;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     font-size: 14px;
     left: 20px;
     margin-right: 20px;
-  }
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
-  #quote-text {
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#quote-text {
     font-size: 12px;
-  }
+}
 
-  /* Hero Text Media Adjustment */
+/* Hero Text Media Adjustment */
 
-  @media (max-width:576px) {
+@media (max-width:576px) {
     .hero-text {
         font-size: 12px;
     }
@@ -231,6 +411,8 @@ body {
         font-size: 10px;
     }
 }
+
+
 
 /* CSS Colour Palette Code from COOLORS */
 /* CSS HEX */

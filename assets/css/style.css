@@ -177,7 +177,7 @@ hr {
 
 /*----------------contact details*/
 .image-background-contact {
-  background-image: url("/assets/images/yayoi\ kusama.jpg#");
+  background-image: url("/assets/images/yayoikusama.jpg");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
@@ -227,7 +227,7 @@ hr {
 }
 
 .image-background-about {
-  background-image: url("/assets/images/YK\ Octo.jpg");
+  background-image: url("/assets/images/ykocto.jpg");
   min-height: 500px;
   position: relative;
   background-attachment: fixed;

@@ -39,7 +39,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   justify-content: center;
-  }
+}
 
 #navbarSupportedContent {
   padding: 5px;
@@ -202,12 +202,12 @@ hr {
   margin-right: 2px;
 }
 
-#contact-container{
- 
- background: #f9f1f1;
- padding-bottom: 20px;
- padding-top: 20px;
-} 
+#contact-container {
+
+  background: #f9f1f1;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
 /* -------ABOUT PAGE -------- */
 
@@ -226,7 +226,7 @@ hr {
   margin: 0;
 }
 
-.image-background-about{
+.image-background-about {
   background-image: url("/assets/images/YK\ Octo.jpg");
   min-height: 500px;
   position: relative;
@@ -237,25 +237,26 @@ hr {
 }
 
 /*----------------Biography*/
-.exhibitions{
+.exhibitions {
   font-weight: 700;
 }
 
-.text-exhibitions{
-font-size: 13px;
-line-height: 15px;
-margin: 1px;
-padding: 3px;
-}
-
-.text-awards{
+.text-exhibitions {
   font-size: 13px;
   line-height: 15px;
   margin: 1px;
   padding: 3px;
 }
-.awards{
-font-weight: 700;
+
+.text-awards {
+  font-size: 13px;
+  line-height: 15px;
+  margin: 1px;
+  padding: 3px;
+}
+
+.awards {
+  font-weight: 700;
 }
 
 /*----------------Carousel*/
@@ -309,15 +310,16 @@ font-weight: 700;
     padding: 10px;
     font-size: 50px;
   }
- 
-  .logo1{
+
+  .logo1 {
     display: none;
   }
-  .hidden-xs{
+
+  .hidden-xs {
     display: none;
   }
-  
-  }
+
+}
 
 /* @media screen and (min-width: 476px) {
   .name {
@@ -330,9 +332,3 @@ font-weight: 700;
     width: auto;
   }
 } */
-
-
-
-
-
-

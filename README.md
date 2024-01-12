@@ -1,5 +1,8 @@
 ```markdown
 
+![The Code Collectors Logo]([URL](https://ibb.co/L0g29Nc))
+
+
 # Artist Portfolio
 
 An art portfolio for artist Yayoi Kusama where people can view and interact in various ways with her artwork.

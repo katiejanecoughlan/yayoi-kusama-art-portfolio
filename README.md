@@ -1,6 +1,6 @@
 ```markdown
 
-![The Code Collectors Logo]([URL](https://ibb.co/L0g29Nc))
+# The Code Collectors Logo
 
 
 # Artist Portfolio

@@ -1,6 +1,6 @@
 ```markdown
 
-# The Code Collectors Logo
+# THE CODE COLLECTORS
 
 
 # Artist Portfolio

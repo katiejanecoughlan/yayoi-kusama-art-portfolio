@@ -1,3 +1,7 @@
+body {
+  font-family: 'Varela', Arial, Helvetica, sans-serif;
+
+}
 
 /* ----Announcement----- */
 .alert {
@@ -81,6 +85,7 @@ p.learn-more:hover {
   color: #fafafa;
   background: #ff0015;
   line-height: 30px;
+  transition: 0.5s ease-in-out;
   /* transition: all 0.35s ease-in-out;
   -moz-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
@@ -191,9 +196,8 @@ hr {
   font-family: "Varela", Arial, Helvetica, sans-serif;
   letter-spacing: 2px;
   text-shadow: 120px 80px 40px 20px #000;
-  font-style: italic;
   background: rgba(0, 0, 0, 0.75);
-  font-size: 14px;
+  font-size: 25px;
   right: 20px;
   margin-right: 2px;
 }
@@ -201,10 +205,19 @@ hr {
 #contact-container{
  
  background: #f9f1f1;
+ padding-bottom: 20px;
+ padding-top: 20px;
 } 
 
-
 /* -------ABOUT PAGE -------- */
+
+#about-section {
+  background-color: #f9f1f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
 /*----------------Top Image*/
 .img-fluid.img-about {
   width: 100%;

@@ -177,7 +177,7 @@ hr {
 
 /*----------------contact details*/
 .image-background-contact {
-  background-image: url("/assets/images/yayoikusama.jpg");
+  background-image: url('https://github.com/katiejanecoughlan/yayoi-kusama-art-portfolio/blob/main/assets/images/yayoikusama.jpg?raw=true');
   min-height: 500px;
   position: relative;
   background-attachment: fixed;
@@ -227,7 +227,7 @@ hr {
 }
 
 .image-background-about {
-  background-image: url("/assets/images/ykocto.jpg");
+  background-image: url('https://publicydn4hdgozyjrg.blob.core.windows.net/public/dd/images/Kusama_Retouched_1_Aug_Do_not_Use.8aec090.jpg');
   min-height: 500px;
   position: relative;
   background-attachment: fixed;

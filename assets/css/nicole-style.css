@@ -4,6 +4,22 @@
 }
 
 /*---------------Contact Page*/
+#contact-container{
+  height: 70vh;
+  filter: blur(8px);
+  position: left;
+  position: top;
+  z-index: -1;
+
+background: url("../images/YK\ Octo.jpg") no-repeat bottom right fixed;
+}
+
+#contact-container-elements {
+  position: left;
+  position: top;
+  z-index: 1;
+}
+
 /*----------------Image*/
 
 .img-contact {

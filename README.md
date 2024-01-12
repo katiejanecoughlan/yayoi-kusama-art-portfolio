@@ -1,39 +1,102 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Certainly! Here's the provided information formatted as a Markdown script:
 
-Welcome,
+```markdown
+# Artist Portfolio
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+An art portfolio for artist Yayoi Kusama where people can view and interact in various ways with her artwork.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Project Overview
 
-## Codeanywhere Reminders
+The first step was to get a clear idea of where we wanted to go with the website. We chose the artist Yayoi Kusama for our work due to the trippy and fun aspects of her style, which could be incorporated into the website while maintaining a professional look. We developed user stories and wireframes based on our ideation process.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Features
 
-`python3 -m http.server`
+1. **Bootstrap Alert**
+   - Featured on main pages of the website.
+   - A banner that displays at the top of the page, informing users of the next public appearance of the artist.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+2. **Nav Bar**
+   - Featured on main pages of the website.
+   - A responsive means by which to navigate the website.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+3. **Parallax Background**
+   - A visually pleasing background image enhancing the navigation experience.
 
-`http_server`
+4. **Footer**
+   - Featured on main pages of the website.
+   - Copyright information and links to the artist's social media accounts.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+5. **Biography**
+   - A brief synopsis of the artist and their work.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+6. **Bootstrap Carousel**
+   - An image carousel used in tandem with the biography to inform viewers about the artist.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+7. **Contact Form**
+   - A form for users to make contact with the artist.
 
-To log into the Heroku toolbelt CLI:
+8. **Interactive Buttons**
+   - Buttons that respond to user input by changing their styles to indicate interactivity.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+9. **Interactive Images**
+   - Images that respond to user input by changing their styles. Styles vary, providing unique results.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
 
----
+### Validator Testing
+- 1 error related to certain layout decisions.
 
-Happy coding!
+### CSS
+- 1 error: Text-shadow didn’t recognize the #000 used to color it.
+
+## Deployment
+
+The site was deployed to [GitHub](https://github.com/your-repository-link).
+
+## Credits
+
+### Content
+- Polka Dot Shapes: [Link](https://www.30secondsofcode.org/css/s/polka-dot-pattern/)
+- Parallax Background: [Link](https://www.w3schools.com/howto/howto_css_parallax.asp)
+- Various HTML Layout Reference: [Link](https://www.w3schools.com/)
+
+### Media
+
+- [Home Hero IMG](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFTWMnfzotBDnSrmpCpx1sTNuEguQ9BQBqg&usqp=CAU)
+- [About Hero IMG](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS3x0H_WnanqrvxnPPDc7wIaMwgfeuEOO9PA-Y2Z0YCwt8nmr9etUym_Q0ZdfPRcMMWUw&usqp=CAU)
+- [Contact Hero IMG](insert_contact_img_url_here)
+- [Gallery Pumpkin Button](https://cdn11.bigcommerce.com/s-9saznil5k4/images/stencil/1280x1280/products/9350/24527/85198__32927.1665759770.jpg?c=1)
+- [Polka Dot 1](https://www.stirworld.com/images/article_gallery/yayoi-kusama-love-is-calling-2013-courtesy-of-david-zwirner-new-york-ota-fine-arts-tokyo-singapore-shanghai-victoria-miro-london-venice-stirworld-200904033023.jpg)
+- [Polka Dot 2](https://www.designboom.com/twitterimages/uploads/2021/08/yayoi-kusama-retrospective-gropius-bau-berlin-designboom-1200..jpg)
+- [Polka Dot 3](https://img.jakpost.net/c/2018/05/07/2018_05_07_45471_1525692255._large.jpg)
+- [Infinity Mirror 1](https://ago.ca/sites/default/files/styles/image_large/public/2017-10/E-08897.jpg?h=0b7a0c0c&itok=Au6QQjOu)
+- [Infinity Mirror 2](https://i.guim.co.uk/img/media/d06d73410bf1b97e28ea54159aa48b4b06d05635/1180_956_4753_2851/master/4753.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=f7bebc92fe3e74ca191e3f0fc1479283)
+- [Infinity Mirror 3](https://artlogic-res.cloudinary.com/w_1600,h_1600,c_limit,f_auto,fl_lossy,q_auto/artlogicstorage/otafinearts/images/view/2e00bbed700ef9798b9cbfcb75f053abj/otafinearts-yayoi-kusama-infinity-mirrored-room-the-eternally-infinite-light-of-the-universe-illuminating-the-quest-for-truth-2020.jpg)
+- [Public Exhibitions 1](https://media.timeout.com/images/105860575/750/562/image.webp)
+- [Public Exhibitions 2](https://media.timeout.com/images/105860572/750/562/image.webp)
+- [Public Exhibitions 3](https://media.timeout.com/images/105847034/750/562/image.webp)
+- [Public Exhibitions 4](https://p.potaufeu.asahi.com/02df-p/picture/27127618/67a56ee91448717e905788177b870377.jpg)
+
+### Version Control and Deployment
+- **GitHub:** [Link](https://github.com/your-repository-link)
+- **Deployment Environment:** Gitpod
+
+### Frontend
+- **HTML, CSS**
+- **Database:** Bootstrap, Hover.css, Animate.css, FontAwesome
+
+## Contribution
+
+- **Katie Coughlan:** Scrum Master, Home Page, Website Theme
+- **Nicole Elizabeth Valdes:** About Page, Contact Page
+- **Ryan Ferris:** Welcome Page, Gallery Page
+
+## Acknowledgements
+
+Special thanks to the creators of the following libraries:
+- Bootstrap
+- CSS.Hover
+- CSS.Animation
+
+Our project was inspired by the artwork of Yayoi Kusama, and her creations brought our designs to life.
+```

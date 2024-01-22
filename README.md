@@ -44,7 +44,6 @@ The site was deployed to GitHub. The live link can be found [here](#).
 **Media:**
 - Home Hero IMG: [Link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaFTWMnfzotBDnSrmpCpx1sTNuEguQ9BQBqg&usqp=CAU)
 - About Hero IMG: [Link](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS3x0H_WnanqrvxnPPDc7wIaMwgfeuEOO9PA-Y2Z0YCwt8nmr9etUym_Q0ZdfPRcMMWUw&usqp=CAU)
-- ...
 
 ## Version Control and Deployment
 
